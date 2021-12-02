@@ -1,0 +1,100 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 2px 3px 2px 3px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.app-title {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: '#ffc857';
+background-image: 'linear-gradient(316deg, #ffc857 0%, #3e2f5b 74%)';
+}
+.app-img {
+  max-width: 100%;
+  height: 20vh;
+}
+.copy-rights-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+  color: gold;
+}
+.movie-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-card {
+  border: 2px gold;
+}
+.card-title {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.card-body {
+  margin: 2px 0 2px 0;
+  width: max-content;
+}
+
+.card-img-top {
+  width: 25em;
+  height: 20em;
+}
+
+/* Copies CSS  */
+
+.movie-box .m-background-holder img {
+  border-radius: 5px;
+  width: 100%;
+  height: 375px;
+  opacity: 1;
+  min-height: inherit;
+  max-height: inherit;
+  object-fit: cover;
+  transition: transform 0.25s, visibility 0.25s ease-in;
+  visibility: visible;
+}
+
+.m-background-holder:hover img {
+  transform: scale(1.1);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+#newMovies_Listing .movie-box .m-background-holder {
+  border: 1 px solid #ddd;
+}
+.movie-box .m-background-holder {
+  overflow: hidden;
+  border-radius: 5 px;
+}
+
+.movie-list-item{
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .movie-list-item {
+    margin: "3% 15% 3% 15%";
+  }
+}
+/*     */
